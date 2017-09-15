@@ -1,0 +1,70 @@
+body 
+{
+	top: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #E3E6E3;
+    font-family: 'helvetica','Segoe UI','Arial','sans-serif';
+}
+img
+{
+	max-width: 100%;
+	max-height: auto;
+}
+.container
+{
+	background-color: #fff;
+	top: 20px;	
+}
+#triocricket
+{
+	font-size: 100px;
+	font-family: 'sans-serif';
+	font-weight: bold;
+}
+#socialbutton
+{
+	padding-left: 20px;
+	padding-top: 30px;
+}
+#socialbutton button
+{
+	width: 100px;
+	height: 30px;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+.top
+{
+  border-bottom:1px solid #000;
+}
+#colmn1, #colmn2, #colmn3
+{
+	border-right: 1px solid #000;
+}
+#colmn1, #colmn2, #colmn3, #colmn4
+{
+	padding: 10px 0 10px 30px;
+}
+#colmn1 h2, #colmn2 h2, #colmn3 h2, #colmn4 h2
+{
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bolder;
+}
+#colmn1 p, #colmn2 p, #colmn3 p, #colmn4 p 
+{
+	padding: 5px 0 5px 0;
+}
+#colmn1 p, #colmn2 p
+{
+	color:#E74C3C;
+}
+#colmn4 p
+{
+	color:#3498DB  ;
+}
+#colmn3 p 
+{
+	color:#2ECC71;
+}
