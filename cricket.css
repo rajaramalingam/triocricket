@@ -4,7 +4,6 @@ body
 	padding: 0;
 	margin: 0;
 	background-color: #E3E6E3;
-    font-family: 'helvetica','Segoe UI','Arial','sans-serif';
 }
 img
 {
@@ -38,33 +37,157 @@ img
 {
   border-bottom:1px solid #000;
 }
-#colmn1, #colmn2, #colmn3
+#match1, #match2, #match3
 {
 	border-right: 1px solid #000;
 }
-#colmn1, #colmn2, #colmn3, #colmn4
+#match1, #match2, #match3, #match4
 {
 	padding: 10px 0 10px 30px;
 }
-#colmn1 h2, #colmn2 h2, #colmn3 h2, #colmn4 h2
+#match1 a, #match2 a, #match3 a, #match4 a
+{
+	color: #000;
+	text-decoration: none;
+}
+#match1 h2, #match2 h2, #match3 h2, #match
+ h2
 {
 	font-size: 15px;
 	line-height: 20px;
 	font-weight: bolder;
 }
-#colmn1 p, #colmn2 p, #colmn3 p, #colmn4 p 
+#match1 p, #match2 p, #match3 p, #match4 p 
 {
 	padding: 5px 0 5px 0;
 }
-#colmn1 p, #colmn2 p
+#match1 p, #match2 p
 {
 	color:#E74C3C;
 }
-#colmn4 p
+#match4 p
 {
-	color:#3498DB  ;
+	color:#3498DB;
 }
-#colmn3 p 
+#match3 p 
 {
 	color:#2ECC71;
+}
+#section2
+{
+	margin-top: 10px;
+}
+#article h1
+{
+	font-size: 30px;
+	color: #D35400;
+	text-align: center;
+	padding-bottom: 5px;
+}
+#articletext p 
+{
+	font-size: 17px;
+	line-height: 20px;
+}
+#article a 
+{
+	padding:0 0 0 60px;
+	margin-top: 10px;
+}
+#news h1
+{
+	font-size: 30px;
+	color: #2471A3;
+	text-align: center;
+}
+#news a
+{
+	color: #000;
+	line-height: 20px;
+}
+#records h1
+{
+	color: #F1C40F;
+	font-size: 30px;
+	text-align: center;
+}
+#recordimg
+{
+	float: left;
+}
+#recordimg img
+{
+	width: 60%;
+}
+#recordtext
+{
+	float: left;
+}
+#recordtext p 
+{
+	padding-top: 10px;
+}
+#recordimg2 img
+{
+	width: 40%;
+}
+#recordimg3 img
+{
+ width: 50%;
+ margin-left: 65px;
+}
+#recordtext3 p
+{
+	padding: 10px;
+}
+#row1, #row2, #row3
+{
+	padding-bottom: 5px;
+}
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+	#triocricket
+{
+	font-size: 30px;
+}
+#socialbutton
+{
+	padding:0 0 0 10px;
+}
+#socialbutton button
+{
+	width:78px;
+	border-radius: 3px;
+}
+#recordimg3 img
+{
+	margin-left: 40px;
+}
+}
+@media screen and (max-width: 700px) and (min-width: 300px) {
+	#triocricket
+{
+	font-size: 30px;
+}
+#socialbutton
+{
+	padding:0 0 0 10px;
+}
+#socialbutton button
+{
+	width:78px;
+	border-radius: 3px;
+}
+#recordimg3 img
+{
+	margin: 0;
+}
+#recordimg3
+{
+   width: 190px;
+}
+    
 }
