@@ -5,6 +5,10 @@ body
 	margin: 0;
 	background-color: #E3E6E3;
 }
+.container
+{
+	font-family: 'Roboto', sans-serif;
+}
 img
 {
 	max-width: 100%;
@@ -18,13 +22,13 @@ img
 #triocricket
 {
 	font-size: 100px;
-	font-family: 'sans-serif';
+	font-family: 'arial';
 	font-weight: bold;
 }
 #socialbutton
 {
 	padding-left: 20px;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 #socialbutton button
 {
@@ -50,8 +54,7 @@ img
 	color: #000;
 	text-decoration: none;
 }
-#match1 h2, #match2 h2, #match3 h2, #match
- h2
+#match1 h2, #match2 h2, #match3 h2, #match4 h2
 {
 	font-size: 15px;
 	line-height: 20px;
@@ -88,11 +91,7 @@ img
 {
 	font-size: 17px;
 	line-height: 20px;
-}
-#article a 
-{
-	padding:0 0 0 60px;
-	margin-top: 10px;
+	padding-left: 10px;
 }
 #news h1
 {
@@ -138,15 +137,51 @@ img
 }
 #recordtext3 p
 {
-	padding: 10px;
+	padding: 10px 0 0 28px;
 }
 #row1, #row2, #row3
 {
 	padding-bottom: 5px;
 }
+#section4
+{
+	margin-top: 20px;
+}
+#vedio
+{
+	float: left;
+	padding: 20px 0;
+}
+#text a
+{
+	color: #000;
+}
+#text 
+{
+	float: left;
+	padding: 20px 0;
+}
+iframe
+{
+	width: 100px;
+	height: 50px;
+}
+#section4 p
+{
+	text-align: center;
+	font-size: 17px;
+	color: #E74C3C;
+}
+footer
+{
+	overflow: hidden;
+	background-color: #808B96;
+}
+footer p
+{
+	margin: 20px
 
-
-
+}
 
 @media screen and (max-width: 900px) and (min-width: 700px) {
 	#triocricket
@@ -155,7 +190,7 @@ img
 }
 #socialbutton
 {
-	padding:0 0 0 10px;
+	padding:10px 0 0 10px;
 }
 #socialbutton button
 {
@@ -165,6 +200,18 @@ img
 #recordimg3 img
 {
 	margin-left: 40px;
+	margin-top: 15px;
+}
+.float-left, .float-right
+{
+	padding: 0;
+	margin:0;
+}
+#recordtext p {
+     padding-top:0;
+}
+#recordtext3 p {
+    padding: 0px;
 }
 }
 @media screen and (max-width: 700px) and (min-width: 300px) {
@@ -174,7 +221,7 @@ img
 }
 #socialbutton
 {
-	padding:0 0 0 10px;
+	padding:0 0 10px 70px;
 }
 #socialbutton button
 {
@@ -189,5 +236,7 @@ img
 {
    width: 190px;
 }
-    
+#recordtext3 p {
+    padding: 0;
+}
 }
