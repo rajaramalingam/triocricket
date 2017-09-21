@@ -54,19 +54,30 @@ img
 #match1 h6, #match2 h6, #match3 h6, #match4 h6
 {
 	font-weight: bolder;
+	font-size: 16px;
 }
 #match1 p, #match2 p
 {
 	color:#E74C3C;
-	
+	font-size: 13px;	
 }
 #match4 p
 {
 	color:#3498DB;
+	font-size: 13px;
 }
 #match3 p 
 {
 	color:#2ECC71;
+	font-size: 13px;
+}
+#flag
+{
+	padding: 0;
+}
+#flag img
+{
+	width: 80px;
 }
 #leftarrow, #rightarrow
 {
@@ -86,6 +97,10 @@ img
 	color: #D35400;
 	text-align: center;
 	padding-bottom: 5px;
+}
+#articletext
+{
+	padding-left:10px; 
 }
 #articletext p 
 {
@@ -155,12 +170,32 @@ img
 #text 
 {
 	float: left;
-	padding: 20px 0;
+	padding: 20px 0 0 20px;
 }
 iframe
 {
 	width: 100px;
 	height: 50px;
+}
+#download
+{
+	background-image:url("bannerimage2.jpg"); 
+	height: 50vh;
+	background-size:100% 100%; 
+}
+#download
+{
+	padding-top: 150px;
+	padding-left: 230px;
+}
+#download img 
+{
+	width: 40px;
+	height: 30px;	
+}
+.topic
+{
+	margin:0 3px;
 }
 .topic p
 {
@@ -176,7 +211,10 @@ footer
 footer p
 {
 	margin: 20px
-
+}
+#pagebottom a
+{
+	color: #000;
 }
 
 @media screen and (max-width: 900px) and (min-width: 700px) {
@@ -217,6 +255,10 @@ footer p
 #recordtext3 p {
     padding: 0px;
 }
+#flag 
+{
+	padding:0 0 0 20px;
+}
 }
 @media screen and (max-width: 700px) and (min-width: 300px) {
 	#triocricket
@@ -248,7 +290,29 @@ footer p
 {
    width: 190px;
 }
+
+#recordtext p
+ {
+    padding-top: 15px;
+}
+#recordtext2 p {
+    padding-top:8px;
+}
 #recordtext3 p {
-    padding: 0;
+   padding: 15px 0 0 0;
+}
+#flag 
+{
+	padding:0 0 0 20px;
+}
+}
+@media screen and (max-width: 320px)  {
+#download {
+    padding-top: 150px;
+    padding-left: 110px;
+}
+footer
+{
+	margin-top: 10px;
 }
 }
