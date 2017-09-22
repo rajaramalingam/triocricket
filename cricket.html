@@ -13,14 +13,12 @@
 	 
 	
 <body>
-	<div class="container">
 <!-- headerstarts -->
-	<header>
 		<div class="top">
 			<div class="row">
 				<div class="col-12 col-md-5 col-lg-6" id="triocricket">
           <div class="row">
-            <div class="col-3 col-md-4 col-lg-2">
+            <div class="col-3 col-md-4 col-lg-2 ">
               <img src="logo2.png">
             </div>
             <div class="col-6 col-md-6 col-lg-6">
@@ -29,87 +27,45 @@
           </div>
 		  	</div>
 			  <div class="col-10 ml-auto col-md-5 ml-auto col-lg-3 ml-auto " id="socialbutton">
-				<a href=""><button type="button">Log In</button></a>
-				<a href=""><button type="button">Sign Up</button></a>
+				<a href=""><button class="btn btn-primary" type="submit">Log In</button></a>
+				<a href=""><button class="btn btn-primary" type="submit">Sign Up</button></a>
 			  </div>
 			</div>
 		</div>
 <!-- top -->
 <!-- bottom -->
-		<div class="bottom">
-      <div class="row">
-      <div class="col-2 col-md-1 col-lg-2">
-        <i class="fa fa-arrow-left fa-2x" aria-hidden="true" id="leftarrow"></i>
-      </div>
-      <div class="col-8 col-md-5 col-lg-2 pt-5" id="match1">
-        <a href=""><h6>IND : 351-4 (49.2 Ovs)</h6>
-            <h6>PAK : 347-9 (50 Ovs)</h6>
-        </a>
-          <p>Ind won by 5wickets</p>
-          <div class="row" >
-            <div class="col-5 col-md-5 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12 " src="flag/indflg.png" ></a>
-            </div>
-           
-            <div class="col-5 col-md-5 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/pakflg.png" ></a>
-            </div>
-          </div>    
-      </div>
-      <div class="col-8 col-md-5 col-lg-2 pt-5 d-none d-md-block" id="match2">
-        <a href=""><h6>ENG: 280-7 (50 Ovs)</h6>
-               <h6>BAN : 261(47.3 Ovs)</h6>
-        </a>
-          <p>Eng won by 20runs</p>
-          <div class="row" >
-            <div class="col-5 col-md-5 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/engflg.png" ></a>
-            </div>
-           
-            <div class="col-5 col-md-5 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/banflg.png" ></a>
-            </div>
-          </div>    
-      </div>
-      <div class="col-8 col-md-4 col-lg-2 pt-5 d-none d-lg-block " id="match3">
-        <a href=""><h6>SL: 278-8 (50 Ovs)</h6>
-            <h6>RSA: 257-5 (48.5 Ovs)</h6>
-        </a>
-          <p>RSA need 22 runs in 7 balls</p>
-          <div class="row" >
-            <div class="col-6 col-md-6 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/slflg.png" ></a>
-            </div>
-            <div class="col-6 col-md-6 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/saflg.png" ></a>
-            </div>
-          </div>    
-      </div>
-      <div class="col-8 col-md-4 col-lg-2 pt-5 d-none d-lg-block" id="match4">
-        <a href=""><h6>WI : 278-7(50 Ovs)</h6>
-            <h6>KEN :238-5(43.1 Ovs)</h6>
-        </a>
-          <p>Match stopped due to rain</p>
-          <div class="row">
-            <div class="col-6 col-md-6 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/wiflg.png" ></a>
-            </div>
-            
-            <div class="col-6 col-md-6 col-lg-6" id="flag">
-              <a href=""><img class="col-12 col-md-12 col-lg-12" src="flag/keflg.png" ></a>
-            </div>
-          </div>    
-      </div>
-      <div class="col-2 ml-auto col-md-1 ml-auto col-lg-1 ml-auto">
-        <i class="fa fa-arrow-right fa-2x" aria-hidden="true" id="rightarrow"></i>
-      </div>
-    </div>			
-		</div>
-	</header>
-<!-- headerover -->
-
+<div class="bottom" >
+  <div class="row" id="scoreboard">
+   <div class="col-1">
+      <i class="fa fa-arrow-left" aria-hidden="true" id="leftarrow"></i>
+    </div>
+    <div class="col pt-1 pb-1">
+      <img  src="flag/indflg.png" class="mb-1 mr-1">IND:351-4(49.2 Ovs)<br>
+      <img  src="flag/pakflg.png" class="mb-1 mr-1">PAK:347-9(50 Ovs)<br>
+      Ind won by 5wickets
+    </div>
+    <div class="col pt-1 pb-1 d-none d-none d-md-block">
+      <img  src="flag/engflg.png" class="mb-1 mr-1">ENG:280-7(50 Ovs)<br>
+      <img  src="flag/banflg.png" class="mb-1 mr-1">BAN:261(47.3 Ovs)<br>
+      Eng won by 20runs
+    </div>
+    <div class="col pt-1 pb-1 d-none d-lg-block">
+      <img  src="flag/slflg.png" class="mb-1 mr-1">SL:278-8(50 Ovs)<br>
+      <img  src="flag/saflg.png" class="mb-1 mr-1">RSA:257-5(48.1 Ovs)<br>
+      RSA need 22 runs in 11 balls
+    </div>
+    <div class="col pt-1 pb-1 d-none d-lg-block">
+      <img  src="flag/wiflg.png" class="mb-1 mr-1">WI:278-7(50 Ovs)<br>
+      <img  src="flag/keflg.png" class="mb-1 mr-1">KEN:238-5(43.1 Ovs)<br>
+      Match stopped due to rain
+    </div>
+    <div class="col-1">
+      <i class="fa fa-arrow-right " aria-hidden="true" id="rightarrow"></i>
+    </div> 
+</div>
+</div>
 <!-- banner -->
-   <div id="carouselExampleIndicators" class="carousel slide pt-5 d-none d-sm-none d-md-block d-lg-block" data-ride="carousel">
+   <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-none d-md-block d-lg-block" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -123,51 +79,51 @@
          <div class="carousel-item active">
            <img class="d-block w-100" src="bannerimage1.jpg" alt="1 slide">
             <div class="carousel-caption d-none d-md-block">
-              <a href=""><img src="playstore.png" ></a>
-              <a href=""><img src="applestore.png"></a>
+              <a href=""><img class="rounded" src="app1.png" ></a>
+              <a href=""><img class="rounded" src="app2.png"></a>
             </div>
          </div>
         <div class="carousel-item">
            <img class="d-block w-100" src="bannerimage2.jpg" alt="2 slide">
             <div class="carousel-caption d-none d-md-block">
-              <a href=""><img src="playstore.png"> </a>
-              <a href=""><img src="applestore.png"></a>
+              <a href=""><img class="rounded" src="app1.png"></a>
+              <a href=""><img class="rounded" src="app2.png"></a>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="bannerimage3.jpg" alt="3 slide">
              <div class="carousel-caption d-none d-md-block">
-              <a href=""><img src="playstore.png"></a>
-              <a href=""><img src="applestore.png"></a>
+              <a href=""><img class="rounded" src="app1.png"></a>
+              <a href=""><img class="rounded" src="app2.png"></a>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="bannerimage4.jpg" alt="4 slide">
              <div class="carousel-caption d-none d-md-block">
-              <a href=""><img src="playstore.png" ></a>
-              <a href=""><img src="applestore.png" ></a>
+              <a href=""><img class="rounded" src="app1.png" ></a>
+              <a href=""><img class="rounded" src="app2.png" ></a>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="bannerimage5.jpg" alt="5 slide">
              <div class="carousel-caption d-none d-md-block">
-              <a href=""><img src="playstore.png" ></a>
-              <a href=""><img src="applestore.png" ></a>
+              <a href=""><img class="rounded" src="app1.png" ></a>
+              <a href=""><img class="rounded" src="app2.png" ></a>
             </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="bannerimage6.jpg" alt="6 slide">
              <div class="carousel-caption d-none d-md-block">
-              <a href=""><img src="playstore.png" ></a>
-              <a href=""><img src="applestore.png" ></a>
+              <a href=""><img class="rounded" src="app1.png" ></a>
+              <a href=""><img class="rounded" src="app2.png" ></a>
             </div>
         </div>
       </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="arrow1">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" id="arrow2">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -177,14 +133,13 @@
 <!-- mobileveiw only -->
 <div class="row d-md-none" id="download"> 
   <div class="col-12 pt-5 ">
-    <img src="mobile1.png">
-    <img src="mobile2.png">
+    <span><img src="app1.png">
+    <img src="app2.png"></span>
   </div>
 </div>
-
 <!--  -->
-<div id="row pt-3">
-  <div class="row">
+<div id="row" >
+  <div class="row pt-2">
     <div class="col-12 col-md-4 col-lg-4" id="article">
         <h1>Article</h1>
       <img class="col-5 col-md-5 col-lg-5 float-left" src="articleimg01.jpg" >
@@ -200,191 +155,134 @@
       </ul>
       </div>
     </div>
-    <div class="col-12 col-md-4 col-lg-4" id="records">
-      <h1>Records</h1>
-          <div class="row" id="row1">
-            <div class="col-6 col-md-3 ml-auto col-lg-3 ml-auto" id="recordimg">
-              <img src="logo/batlogo.png">
-            </div>
-            <div class="col-6 col-md-6 col-lg-6" id="recordtext" >
-              <a href=""><p>Top 10 Batsman</p></a>
-            </div>
-          </div>
-          <div class="row" id="row2">
-            <div class="col-6 col-md-3 ml-auto col-lg-3 ml-auto" id="recordimg2">
-              <img src="logo/bowlerslogo.png">
-            </div>
-            <div class="col-6 col-md-6 col-lg-6" id="recordtext2" >
-              <a href=""><p>Top 10 Bowlers</p></a>
-            </div>
-          </div>
-          <div class="row" id="row3">
-            <div class="col-6 col-md-4 ml-auto col-lg-4 ml-auto" id="recordimg3">
-              <img src="logo/team.png">
-            </div>
-            <div class="col-6 col-md-7-ml-auto col-lg-7 ml-auto" id="recordtext3" >
-              <a href=""><p>Top 10 Teams Ranking</p></a>
-            </div>
-          </div>
+    <div class="col-12 col-md-4 col-lg-4" id="records" >
+      <h1>Records</h1>      
+        <div class="clearfix">
+          <a href=""><img src="logo/batlogo.png" class="mr-1 mb-1"> Top 10 Batsman</a>
+        </div>
+        <div class="clearfix">
+         <a href=""><img src="logo/bowlerslogo.png" class="mr-1 mb-1"> Top 10 Bowlers</a>
+       </div>
+        <div class="clearfix">
+          <a href=""><img src="logo/team.png" class="mr-1 mb-1"> Top 10 Teams Ranking</a>
+        </div>
     </div>
   </div>
 </div>
-
-<!-- section2 -->
-
 <!-- videos section1 -->
-<div class="row pt-3 topic">
-  <div class="row">
-    <div class="col-12 col-md-12 col-lg-4">
-      <p>Recent Matches</p>
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-12">
-            <div class="col-6 col-md-6 col-lg-6" id="vedio">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe  src="https://www.youtube.com/embed/5SkBZcvuuQs?ecver=2">
-                  </iframe>
-              </div>
-            </div>
-            <div class="col-6 col-md-6 col-lg-6" id="text">
-              <a href="">Yuvraj Singh 6 sixes in six balls against england in t20 world cup full </a>
-              <br>
-              <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
-            </div>
-          </div>
-        <div class="col-12 col-md-12 col-lg-12">
-          <div class="col-6 col-md-6 col-lg-6" id="vedio">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe  src="https://www.youtube.com/embed/p80Iv97cxtQ?ecver=2">
-              </iframe>
-            </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-6" id="text">
-          <a href="">13 Top Catches taken by Indian Players in Cricket Ever</a>
-          <br>
-          <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
-          </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-12">
-         <div class="col-6 col-md-6 col-lg-6" id="vedio">
-           <div class="embed-responsive embed-responsive-16by9">
-            <iframe  src="https://www.youtube.com/embed/qE12Qag-kf0?ecver=2">
+<div class="row pt-3" id="video">
+  <div class="col-12 col-md-12 col-lg-4" id="topic">
+    <h3>Recent Videos</h3>
+      <div class="row " id="vedio">
+        <div class="col-6 col-md-6 col-lg-6  mb-3  embed-responsive embed-responsive-16by9" >
+          <iframe  src="https://www.youtube.com/embed/p80Iv97cxtQ?ecver=2">
            </iframe>
-          </div>
-          </div>
-         <div class="col-6 col-md-6 col-lg-6" id="text">
-            <a href="">T20I - Full Match Highlights - Sri Lanka vs India
-            </a>
-            <br>
-            <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
-          </div>
-        </div>  
+        </div>
+        <div class="col-6 col-md-6 col-lg-6 " id="text">
+          13 Top Catches taken by Indian Players in Cricket Ever<br>
+          <a href="">Watch More>></a>
+        </div>
+      </div>
+      <div class="row ">
+        <div class=" col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 " id="vedio">
+          <iframe  src="https://www.youtube.com/embed/5SkBZcvuuQs?ecver=2">
+          </iframe>
+      </div>
+      <div class="col-6 col-md-6 col-lg-6" id="text">
+              Yuvraj Singh 6 sixes in six balls against england in t20 world cup full<br>
+              <a href="">Watch More>></button></a>
+        </div>
+      </div>
+      <div class="row ">
+        <div class=" col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 " id="vedio">
+         <iframe  src="https://www.youtube.com/embed/qE12Qag-kf0?ecver=2">
+           </iframe>
+      </div>
+      <div class="col-6 col-md-6 col-lg-6" id="text">
+           T20I - Full Match Highlights - Sri Lanka vs India<br>
+           <a href="">Watch More>></a> 
+        </div>
       </div>
     </div>
-<!-- interiews -->
-  <div class="col-12 col-md-12 col-lg-4">
-   <p>Interviews</p>
-  <div class="row">
-    <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-6 col-md-6 col-lg-6" id="vedio">
-        <div class="embed-responsive embed-responsive-16by9">
+<!--  -->
+    <div class="col-12 col-md-12 col-lg-4" id="topic">
+    <h3>Interviews</h3>
+      <div class="row " id="vedio">
+        <div class="col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9" >
           <iframe  src="https://www.youtube.com/embed/Iy4dMyQHKdI">
           </iframe>
         </div>
+        <div class="col-6 col-md-6 col-lg-6 " id="text">
+          India’s Smriti Mandhana interview India (w) vs West Indies (w)<br>
+        <a href="">Watch More>></a>
+        </div>
       </div>
-      <div class="col-6 col-md-6 col-lg-6" id="text">
-        <a href="https://www.youtube.com/embed/Iy4dMyQHKdI">India’s Smriti Mandhana interview India (w) vs West Indies (w)</a>
-        <br>
-        <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
-      </div>
-    </div>
-    <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-6 col-md-6 col-lg-6" id="vedio">
-        <div class="embed-responsive embed-responsive-16by9">
+      <div class="row">
+        <div class=" col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 " id="vedio">
           <iframe  src="https://www.youtube.com/embed/59BW5grxF8E">
           </iframe>
-        </div>
       </div>
       <div class="col-6 col-md-6 col-lg-6" id="text">
-        <a href="https://www.youtube.com/embed/59BW5grxF8E">Interview with Hitman Hardik Pandya about his cricket carrier</a>
-        <br>
-        <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
+          Interview with Hitman Hardik Pandya about his cricket carrier<br>
+        <a href="">Watch More>></a>
+        </div>
+      </div>
+      <div class="row ">
+        <div class=" col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 " id="vedio">
+         <iframe  src="https://www.youtube.com/embed/jrxCsS5KHDc">
+          </iframe>
+      </div>
+      <div class="col-6 col-md-6 col-lg-6" id="text">
+          Sachin Tendulkar Interesting Interview <br>
+        <a href="">Watch More>></a> 
+        </div>
       </div>
     </div>
-    <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-6 col-md-6 col-lg-6" id="vedio">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe  src="https://www.youtube.com/embed/jrxCsS5KHDc">
+<!--  -->
+    <div class="col-12 col-md-12 col-lg-4" id="topic">
+    <h3>On this day</h3>
+      <div class="row  " id="vedio">
+        <div class="col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9" >
+          <iframe  src="https://www.youtube.com/embed/N-XU9NVuARc">
           </iframe>
         </div>
-      </div>
-      <div class="col-6 col-md-6 col-lg-6" id="text">
-        <a href="https://www.youtube.com/embed/jrxCsS5KHDc">Sachin Tendulkar Interesting Interview In Australia 
-        </a>
-        <br>
-        <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
-      </div>
-    </div>  
-  </div>
-</div>
-<!-- on this day -->
-<div class="col-12 col-md-12 col-lg-4">
-   <p>On this day</p>
-   <div class="row">
-    <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-6 col-md-6 col-lg-6" id="vedio">
-        <div class="embed-responsive embed-responsive-16by9">
-         <iframe  src="https://www.youtube.com/embed/N-XU9NVuARc">
-          </iframe>
+        <div class="col-6 col-md-6 col-lg-6 " id="text">
+          Sachin Tendulkar 73 against Australia 1st Test MCG 2011<br>
+        <a href="">Watch More>></a>
         </div>
       </div>
-      <div class="col-6 col-md-6 col-lg-6" id="text">
-        <a href="https://www.youtube.com/embed/N-XU9NVuARc">Sachin Tendulkar 73 against Australia 1st Test MCG 2011 YouTube</a>
-        <br>
-        <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
-      </div>
-    </div>
-    <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-6 col-md-6 col-lg-6" id="vedio">
-        <div class="embed-responsive embed-responsive-16by9">
-         <iframe src="https://www.youtube.com/embed/riP6Fp3W0LI">
+      <div class="row">
+        <div class=" col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 " id="vedio">
+          <iframe src="https://www.youtube.com/embed/riP6Fp3W0LI">
          </iframe>
-        </div>
       </div>
       <div class="col-6 col-md-6 col-lg-6" id="text">
-        <a href="https://www.youtube.com/embed/OqrwSyo14BE">Greatest finisher ever to cricket team India chasing the 314runs against NZ </a>
-        <br>
-        <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
+          Greatest finisher India chasing the 314runs against NZ <br>
+        <a href="">Watch More>></a>
+        </div>
       </div>
-    </div>
-    <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-6 col-md-6 col-lg-6" id="vedio">
-        <div class="embed-responsive embed-responsive-16by9">
+      <div class="row">
+        <div class=" col-6 col-md-6 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 " id="vedio">
          <iframe  src="https://www.youtube.com/embed/eoe3VUa9HlI">
          </iframe>
-        </div>
       </div>
       <div class="col-6 col-md-6 col-lg-6" id="text">
-        <a href="https://www.youtube.com/embed/eoe3VUa9HlI">Suresh Raina hit 10 sixes against England series 
-        </a>
-        <br>
-        <a href=""><button class="btn btn-primary" type="submit">Watch More</button></a>
+         Suresh Raina hit 10 sixes against England series <br>
+        <a href="">Watch More>></button></a>
+        </div>
       </div>
-    </div>  
-  </div>
-  </div>
- 
+    </div>
 </div>
-</div>
-<!-- footer -->
+<!-- footer--> 
 <footer>
   <div class="row">
     <div class="col-12 col-md-12 col-lg-12">
-      <div class="col-md-4 col-lg-4 float-left">
-        <p>copyright @ <a href="">Triodesk.com</a> 2017</p>
+      <div class="col-md-5 col-lg-4 float-left">
+        copyright @ <a href="">Triocricket.com</a> 2017
       </div>
       <div class="col-12 col-md-5 ml-auto  col-lg-3 ml-auto" id="pagebottom">
-        <a href=""><p>Teams And Condition<br></a>
-                     <a href=""> Privacy And Policy</p></a>
+        <a href="">Teams&Condition<br></a>
+                     <a href=""> Privacy&Policy</a>
       </div>
     </div>
   </div>

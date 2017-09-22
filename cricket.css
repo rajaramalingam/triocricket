@@ -3,7 +3,15 @@ body
 	top: 0;
 	padding: 0;
 	margin: 0;
-	background-color: #E3E6E3;
+}
+ul 
+{
+	padding-left: 0;
+}
+.row 
+{
+	margin-left: 0;
+	margin-right: 0;
 }
 .container
 {
@@ -25,17 +33,24 @@ img
 	font-family: 'arial';
 	font-weight: bold;
 }
+#triocricket h1
+{
+	margin-top: 10px;
+    margin-left: -35px;
+}
 #socialbutton
 {
-	padding-left: 20px;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 #socialbutton button
 {
 	width: 100px;
 	height: 30px;
-	padding-left: 10px;
-	border-radius: 3px;
+	padding-top: 0;
+	color: #000;
+	border-radius: 10px;
+	border-color: #000;
+	background-color:#FDFEFE;
 }
 .top
 {
@@ -43,59 +58,74 @@ img
 }
 .bottom
 {
-	margin-top: 5px;
-	margin-bottom: 20px;
+	background-color:#CCD1D1 ;
+}
+.scoreboard img 
+{
+	width: 20px;
+	height: 15px;
 }
 #match1 a, #match2 a, #match3 a, #match4 a
 {
 	color: #000;
 	text-decoration: none;
 }
-#match1 h6, #match2 h6, #match3 h6, #match4 h6
+#match1 h6, #match2 h6, #match3 h6, #match4 h6, #match5 h6
 {
 	font-weight: bolder;
-	font-size: 16px;
+	font-size: 13px;
+	padding-top: 6px;
 }
 #match1 p, #match2 p
 {
 	color:#E74C3C;
-	font-size: 13px;	
+	font-size: 12px;	
 }
 #match4 p
 {
 	color:#3498DB;
-	font-size: 13px;
+	font-size: 12px;
 }
 #match3 p 
 {
 	color:#2ECC71;
-	font-size: 13px;
+	font-size: 12px;
 }
-#flag
+#match5 p 
 {
-	padding: 0;
+	color:#A04000;
+	font-size: 12px;
 }
-#flag img
+#rightarrow, #leftarrow
 {
-	width: 80px;
+	margin-top: 40px;
 }
-#leftarrow, #rightarrow
+#rightarrow
 {
-	padding-top: 80px;
+	padding-left: 54px;
 }
+ #leftarrow
+ {
+ 	margin-left: -12px;
+ }
 .carousel-item img
 {
 	height: 500px;
 }
 .carousel-caption img
 {
-	height: 70px
+	height: 60px;
+	width: 150px;
+}
+#arrow1, #arrow2
+{
+	margin-bottom: 250px;
 }
 #article h1
 {
 	font-size: 30px;
 	color: #D35400;
-	text-align: center;
+	text-align:left;
 	padding-bottom: 5px;
 }
 #articletext
@@ -112,7 +142,7 @@ img
 {
 	font-size: 30px;
 	color: #2471A3;
-	text-align: center;
+	text-align:left;
 }
 #news a
 {
@@ -123,79 +153,41 @@ img
 {
 	color: #F1C40F;
 	font-size: 30px;
-	text-align: center;
+	text-align:left;
 }
-#recordimg
+#records img
 {
-	float: left;
+	width: 50px;
 }
-#recordimg img
+.topic
 {
-	width: 60%;
-}
-#recordtext
-{
-	float: left;
-}
-#recordtext p 
-{
-	padding-top: 10px;
-}
-#recordimg2 img
-{
-	width: 40%;
-}
-#recordimg3 img
-{
- width: 50%;
- margin-left: 65px;
-}
-#recordtext3 p
-{
-	padding: 10px 0 0 28px;
-}
-#row1, #row2, #row3
-{
-	padding-bottom: 5px;
-}
-#vedio
-{
-	float: left;
-	padding: 20px 0;
-}
-#text a
-{
-	color: #000;
-}
-#text 
-{
-	float: left;
-	padding: 20px 0 0 20px;
-}
-iframe
-{
-	width: 100px;
-	height: 50px;
+	text-align: right;
 }
 #download
 {
 	background-image:url("bannerimage2.jpg"); 
 	height: 50vh;
-	background-size:100% 100%; 
+	background-size:100% 100%;
+	text-align: center; 
 }
-#download
+#topic h3
 {
-	padding-top: 150px;
-	padding-left: 230px;
+	text-align: left;
+	color:#839192  ;
 }
-#download img 
+span 
 {
-	width: 40px;
-	height: 30px;	
+	position: absolute;
+	bottom: 10px;
+}
+#download img
+{
+	width: 60px;
+	height: 30px;
 }
 .topic
 {
-	margin:0 3px;
+	margin:0 0 0 5px;
 }
 .topic p
 {
@@ -208,111 +200,96 @@ footer
 	overflow: hidden;
 	background-color: #808B96;
 }
-footer p
-{
-	margin: 20px
-}
 #pagebottom a
 {
 	color: #000;
 }
-
-@media screen and (max-width: 900px) and (min-width: 700px) {
-	#triocricket
+@media (max-width: 1100px){
+#rightarrow
 {
-	font-size: 30px;
-}
-#match1 p, #match2 p 
-{
-	margin-left: 25px
-}
-#match1 h6, #match2 h6
-{
-	margin-left: 25px
-} 
-#socialbutton
-{
-	padding:10px 0 0 10px;
-}
-#socialbutton button
-{
-	width:78px;
-	border-radius: 3px;
-}
-#recordimg3 img
-{
-	margin-left: 40px;
-	margin-top: 15px;
-}
-.float-left, .float-right
-{
-	padding: 0;
-	margin:0;
-}
-#recordtext p {
-     padding-top:0;
-}
-#recordtext3 p {
-    padding: 0px;
-}
-#flag 
-{
-	padding:0 0 0 20px;
-}
-}
-@media screen and (max-width: 700px) and (min-width: 300px) {
-	#triocricket
-{
-	font-size: 30px;
-}
-#match1 p
-{
-	margin-left: 20px
-}
-#match1 h6
-{
-	margin-left: 20px
-} 
-#socialbutton
-{
-	padding:0 0 10px 70px;
-}
-#socialbutton button
-{
-	width:78px;
-	border-radius: 3px;
-}
-#recordimg3 img
-{
-	margin: 0;
-}
-#recordimg3
-{
-   width: 190px;
+	padding-left: 54px;
 }
 
-#recordtext p
- {
-    padding-top: 15px;
 }
-#recordtext2 p {
-    padding-top:8px;
-}
-#recordtext3 p {
-   padding: 15px 0 0 0;
-}
-#flag 
+@media (max-width: 780px){
+#socialbutton
 {
-	padding:0 0 0 20px;
+	padding-left:0;
 }
-}
-@media screen and (max-width: 320px)  {
-#download {
-    padding-top: 150px;
-    padding-left: 110px;
-}
-footer
+#triocricket h1
 {
 	margin-top: 10px;
 }
+#socialbutton
+{
+	
+	padding-left: 60px;
+}
+ #rightarrow
+ {
+ 	margin-left: -20px;
+ }
+ #leftarrow 
+{
+	margin-left: -12px;
+}
+#rightarrow, #leftarrow 
+{
+    margin-top: 35px;
+}
+}
+@media (max-width: 480px){
+#triocricket 
+{
+	padding-left: 50px;
+}
+#socialbutton
+{
+	padding-left: 30px;
+}
+#triocricket h1
+{
+	margin-top: 10px;
+}
+#socialbutton
+{
+	padding-top: 8px;
+    padding-bottom: 10px;
+}
+#rightarrow, #leftarrow
+{
+	margin-top: 35px;
+}
+#rightarrow
+{
+	margin-left: -82px;
+}
+#leftarrow
+{
+	margin-left: -12px;
+}
+}
+
+@media (max-width: 400px) {
+#triocricket h1
+{
+	margin-top:0px;
+}
+#triocricket 
+{
+	padding-left: 20px;
+}
+#socialbutton
+{
+	padding-left: 8px;
+}
+#rightarrow
+{
+	margin-left: -56px;
+}
+#leftarrow
+{
+	margin-left: -12px;
+}
+
 }
