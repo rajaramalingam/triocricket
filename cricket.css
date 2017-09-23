@@ -46,7 +46,7 @@ img
 {
 	width: 100px;
 	height: 30px;
-	padding-top: 0;
+	padding:0 0 5px 0;
 	color: #000;
 	border-radius: 10px;
 	border-color: #000;
@@ -54,67 +54,38 @@ img
 }
 .top
 {
-  border-bottom:1px solid #000;
+  border-bottom:1px solid #efefef;
 }
 .bottom
 {
-	background-color:#CCD1D1 ;
+	background-color:#efefef ;
 }
-.scoreboard img 
+#scoreboard img 
 {
-	width: 20px;
-	height: 15px;
+	width: 22px;
+	height: auto;
 }
-#match1 a, #match2 a, #match3 a, #match4 a
+#scoreboard a 
 {
 	color: #000;
-	text-decoration: none;
-}
-#match1 h6, #match2 h6, #match3 h6, #match4 h6, #match5 h6
-{
-	font-weight: bolder;
-	font-size: 13px;
-	padding-top: 6px;
-}
-#match1 p, #match2 p
-{
-	color:#E74C3C;
-	font-size: 12px;	
-}
-#match4 p
-{
-	color:#3498DB;
 	font-size: 12px;
-}
-#match3 p 
-{
-	color:#2ECC71;
-	font-size: 12px;
-}
-#match5 p 
-{
-	color:#A04000;
-	font-size: 12px;
+	font-weight:bolder;
 }
 #rightarrow, #leftarrow
 {
-	margin-top: 40px;
+	margin-top: 25px;
 }
 #rightarrow
 {
 	padding-left: 54px;
 }
- #leftarrow
- {
- 	margin-left: -12px;
- }
 .carousel-item img
 {
-	height: 500px;
+	height:500px;
 }
 .carousel-caption img
 {
-	height: 60px;
+	height: auto;
 	width: 150px;
 }
 #arrow1, #arrow2
@@ -124,7 +95,7 @@ img
 #article h1
 {
 	font-size: 30px;
-	color: #D35400;
+	color:#0e97f9;
 	text-align:left;
 	padding-bottom: 5px;
 }
@@ -141,7 +112,7 @@ img
 #news h1
 {
 	font-size: 30px;
-	color: #2471A3;
+	color: #0e97f9;
 	text-align:left;
 }
 #news a
@@ -151,7 +122,7 @@ img
 }
 #records h1
 {
-	color: #F1C40F;
+	color:#0e97f9;
 	font-size: 30px;
 	text-align:left;
 }
@@ -183,7 +154,7 @@ span
 #download img
 {
 	width: 60px;
-	height: 30px;
+	height:auto;
 }
 .topic
 {
@@ -198,11 +169,21 @@ span
 footer
 {
 	overflow: hidden;
-	background-color: #808B96;
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+}
+footer a 
+{
+	color: #fff;
 }
 #pagebottom a
 {
-	color: #000;
+	color: #fff;
+}
+#foot
+{
+	padding-top: 10px;
 }
 @media (max-width: 1100px){
 #rightarrow
