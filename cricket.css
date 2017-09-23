@@ -35,18 +35,19 @@ img
 }
 #triocricket h1
 {
-	margin-top: 10px;
+	margin-top: 6px;
     margin-left: -35px;
 }
 #socialbutton
 {
-	padding-top: 20px;
+	padding-top: 14px;
 }
 #socialbutton button
 {
 	width: 100px;
 	height: 30px;
-	padding:0 0 5px 0;
+	font-size: 12px;
+	padding:0 0 3px 0;
 	color: #000;
 	border-radius: 10px;
 	border-color: #000;
@@ -65,6 +66,10 @@ img
 	width: 22px;
 	height: auto;
 }
+#match1, #match2, #match3, #match4
+{
+	border: 1px solid #fff;
+} 
 #scoreboard a 
 {
 	color: #000;
@@ -73,11 +78,11 @@ img
 }
 #rightarrow, #leftarrow
 {
-	margin-top: 25px;
+	margin-top: 23px;
 }
 #rightarrow
 {
-	padding-left: 54px;
+	padding-left: 35px;
 }
 .carousel-item img
 {
@@ -99,15 +104,19 @@ img
 	text-align:left;
 	padding-bottom: 5px;
 }
-#articletext
+article img
 {
-	padding-left:10px; 
+		height: 95px;
 }
 #articletext p 
 {
 	font-size: 17px;
 	line-height: 20px;
-	padding-left: 10px;
+	padding-left: 5px;
+}
+#news li 
+{
+	line-height: 20px;
 }
 #news h1
 {
@@ -128,7 +137,7 @@ img
 }
 #records img
 {
-	width: 50px;
+	width: 25px;
 }
 .topic
 {
@@ -144,7 +153,7 @@ img
 #topic h3
 {
 	text-align: left;
-	color:#839192  ;
+	color:#1a1c1c;
 }
 span 
 {
@@ -188,9 +197,12 @@ footer a
 @media (max-width: 1100px){
 #rightarrow
 {
-	padding-left: 54px;
+	padding-left: 35px;
 }
-
+#article img 
+{
+	height: 100px;
+}
 }
 @media (max-width: 780px){
 #socialbutton
@@ -199,11 +211,15 @@ footer a
 }
 #triocricket h1
 {
-	margin-top: 10px;
+	margin-top: 12px;
+}
+#article img
+{
+	height: 190px;
 }
 #socialbutton
 {
-	
+	padding-top: 18px;
 	padding-left: 60px;
 }
  #rightarrow
@@ -216,7 +232,7 @@ footer a
 }
 #rightarrow, #leftarrow 
 {
-    margin-top: 35px;
+    margin-top: 24px;
 }
 }
 @media (max-width: 480px){
@@ -237,13 +253,17 @@ footer a
 	padding-top: 8px;
     padding-bottom: 10px;
 }
+#article img
+{
+	height: 136px;
+}
 #rightarrow, #leftarrow
 {
-	margin-top: 35px;
+	margin-top: 25px;
 }
 #rightarrow
 {
-	margin-left: -82px;
+	margin-left: -35px;
 }
 #leftarrow
 {
@@ -256,6 +276,10 @@ footer a
 {
 	margin-top:0px;
 }
+#article img 
+{
+	height: 120px;
+}
 #triocricket 
 {
 	padding-left: 20px;
@@ -266,11 +290,10 @@ footer a
 }
 #rightarrow
 {
-	margin-left: -56px;
+	margin-left: -36px;
 }
 #leftarrow
 {
 	margin-left: -12px;
 }
-
 }
